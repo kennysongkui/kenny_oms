@@ -1,7 +1,7 @@
 OMS_MYSQL = {
     "host": "10.104.9.61",
     "port": "3306",
-    "databases": "autoyw",
+    "database": "autoyw",
     "user": "autoyw",
     "password": "password"
 }

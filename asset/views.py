@@ -78,7 +78,7 @@ def host_list_manage(request, id=None):
                   })
 
 def record(request):
-    message_list = Message.objects.all().order_by('-audi_time')
+    message_list = Message.objects.all().order_by('-audit_time')
     paginator = Paginator(message_list, 10)
 
     try:
